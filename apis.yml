@@ -1,7 +1,26 @@
 aid: eloquii
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eloquii.png
 name: Eloquii
-description: Eloquii is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: ELOQUII is a plus-size women's fashion retailer offering trend-driven,
+  fashion-forward apparel and accessories in sizes 14 through 32, including dresses,
+  workwear, outerwear, denim, and occasion wear with frequent seasonal collection
+  refreshes. Known for its fit-obsessed design and inclusive sizing, the brand operates
+  a direct-to-consumer ecommerce storefront at eloquii.com alongside select retail
+  locations. ELOQUII was founded as a plus-size line, acquired by Walmart in 2018,
+  and is now part of FullBeauty Brands. It was surfaced as a 500 Global portfolio
+  company and added to the API Evangelist network; it publishes a consumer ecommerce
+  experience but no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/eloquii/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- Ecommerce
+- Fashion
+- Apparel
+- Plus Size
+- Direct to Consumer
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://eloquii.com
+- type: Support
+  url: https://www.eloquii.com/help-page
+- type: PrivacyPolicy
+  url: https://www.eloquii.com/c/privacy-policy.html
+- type: TermsOfService
+  url: https://www.eloquii.com/c/terms-of-use-ca.html
+- type: SignUp
+  url: https://www.eloquii.com/my-account
+- type: DomainSecurity
+  url: security/eloquii-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
